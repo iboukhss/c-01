@@ -6,7 +6,7 @@
 /*   By: iboukhss <iboukhss@student.42luxe...>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 19:35:28 by iboukhss          #+#    #+#             */
-/*   Updated: 2023/12/03 15:42:19 by iboukhss         ###   ########.fr       */
+/*   Updated: 2023/12/04 13:27:13 by iboukhss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ int	ft_strlen(char *str)
 	int	len;
 
 	len = 0;
-	while (*str != '\0')
+	while (*str)
 	{
 		++str;
 		++len;
